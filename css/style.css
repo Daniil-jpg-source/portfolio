@@ -5,7 +5,7 @@
 }
 
 .one_str{
-    background: url("/image/back.png") center center/cover no-repeat;
+    background: url("../image/back.PNG") center center/cover no-repeat;
     height: 800px;
 }
 
@@ -109,3 +109,4 @@
     color: #7fff00;
 
 }
+
