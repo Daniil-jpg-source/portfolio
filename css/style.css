@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one_str{
+    background: url("../image/back.png") center center/cover no-repeat;
+    height: 800px;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.one_str .container .header{
+    text-align: center;
+    color: #6666FF;
+    padding-top: 20px;
+    font-size: 36px;
+}
+
+
+.ava{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border: 4px solid mediumslateblue;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+.avatar_wrapper{
+    text-align: center;
+    margin-top: 50px;
+}
+.avatar_wrapper .item .descr{
+    color: #6666FF;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+.bio, .interest, .hobby, .skills{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 25px;
+    border: 1px solid aqua;
+    transition: transform 0.3s;
+}
+.bio h3, .interest h3, .hobby h3, .skills h3{
+    color: #a1c4e9;
+    font-size: 22px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid lime;
+    padding-bottom: 8px;
+}
+.bio p, .interest p, .hobby p{
+    color: white;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.skills ul{
+    list-style: none;
+}
+.skills li{
+    color: white;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    padding-left: 20px;
+}
+.skills li::before{
+    content: ;
+}
+.contacts{
+    text-align: center;
+    margin-top: 50px;
+}
+.contacts h3{
+    color: a1c4e9;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.contacts-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.contacts-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+.contacts-links a:hover{
+    border-bottom-color: #7fff00;
+    color: #7fff00;
+}
