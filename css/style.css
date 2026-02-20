@@ -5,7 +5,7 @@
 }
 
 .one_str{
-    background: url("../image/back.png") center center/cover no-repeat;
+    background: url("/image/back.png") center center/cover no-repeat;
     height: 800px;
 }
 
@@ -107,4 +107,5 @@
 .contacts-links a:hover{
     border-bottom-color: #7fff00;
     color: #7fff00;
+
 }
